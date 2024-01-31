@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3T81H1GBa7cwhEEHEed3nxTeEK30n+gaIJ1BtgS5eJvkomUmgIqUiGo1Npeig0CsoEIbKgG/sddvC0gHOgFt1Q==",
+  "dgSpecHash": "Fgs+CX3vDAsjyttXGL1+eLffwd7FBxcSBl5ttxGNktX7bY0rIo6f6rLQvSSZ27CnjCpxqgsOhiGYJ/yhB1Ix6g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Eigenaar\\Documents\\School\\ICT 2\\Semester 1\\Reversi\\Reversi_William_Kater_1157125\\ReversiTestAPI\\ReversiAPI.csproj",
+  "projectFilePath": "C:\\Repos\\ReversiAPI\\ReversiTestAPI\\ReversiAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Eigenaar\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Eigenaar\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

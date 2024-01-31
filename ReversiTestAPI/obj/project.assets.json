@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
+    "net7.0": {
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
@@ -6231,7 +6231,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0": [
+    "net7.0": [
       "Microsoft.EntityFrameworkCore >= 5.0.12",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.12",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.12",
@@ -6245,11 +6245,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Eigenaar\\Documents\\School\\ICT 2\\Semester 1\\Reversi\\Reversi_William_Kater_1157125\\ReversiTestAPI\\ReversiAPI.csproj",
+      "projectUniqueName": "C:\\Repos\\ReversiAPI\\ReversiTestAPI\\ReversiAPI.csproj",
       "projectName": "ReversiAPI",
-      "projectPath": "C:\\Users\\Eigenaar\\Documents\\School\\ICT 2\\Semester 1\\Reversi\\Reversi_William_Kater_1157125\\ReversiTestAPI\\ReversiAPI.csproj",
+      "projectPath": "C:\\Repos\\ReversiAPI\\ReversiTestAPI\\ReversiAPI.csproj",
       "packagesPath": "C:\\Users\\Eigenaar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Eigenaar\\Documents\\School\\ICT 2\\Semester 1\\Reversi\\Reversi_William_Kater_1157125\\ReversiTestAPI\\obj\\",
+      "outputPath": "C:\\Repos\\ReversiAPI\\ReversiTestAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Users\\Eigenaar\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
@@ -6260,7 +6260,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -6268,8 +6268,8 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "projectReferences": {}
         }
       },
@@ -6280,8 +6280,8 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "net7.0": {
+        "targetAlias": "net7.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
