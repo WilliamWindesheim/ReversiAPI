@@ -49,6 +49,15 @@ namespace ReversiTestAPI
                 .AllowAnyOrigin());
             }
 
+            app.Use(async (context, next) =>
+            {
+                context.Response.Headers.Add("X-Frame-Options", "DENY");
+                context.Response.Headers.Add("X-Content-Type-Options", "nosniff");
+                context.Response.Headers.Add("Strict-Transport-Security", "max-age=31536000; includeSubDomains; preload");
+                context.Response.Headers.Add("Content-Disposition", "attachment; filename='api.json'");
+                await next();
+            });
+
             app.UseHttpsRedirection();
 
             app.UseRouting();

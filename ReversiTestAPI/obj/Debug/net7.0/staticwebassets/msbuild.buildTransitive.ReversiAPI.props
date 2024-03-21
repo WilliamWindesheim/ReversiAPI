@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="..\buildMultiTargeting\ReversiAPI.props" />
+  <Import Project="../buildMultiTargeting/ReversiAPI.props" />
 </Project>

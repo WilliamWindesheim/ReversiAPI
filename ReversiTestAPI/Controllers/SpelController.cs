@@ -119,7 +119,7 @@ namespace ReversiAPI.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<SpelTbvJson>> GetSpelOmschrijvingenVanSpellenMetWachtendeSpeler()
         {
-            return Ok(iRepository.GetSpellen().Where(spel => spel.Speler2Token == ""));
+            return Ok(iRepository.GetSpellen().Where(spel => spel.Speler2Token == "" && spel.Winnaar == 0));
         }
 
         // GET api/spel/id
